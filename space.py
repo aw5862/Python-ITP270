@@ -1,7 +1,7 @@
 #!/bin/python3
 
 weight = int(input("Enter your weight: "))
-planet = int(input("Enter a planet\n1.Venus\n2.Mars\n3.Jupiter\n4.Saturn\n5.Uranus\n6.Neptune\n"))
+planet = int(input("Enter a planet number\n1.Venus\n2.Mars\n3.Jupiter\n4.Saturn\n5.Uranus\n6.Neptune\n"))
 
 if planet == 1:
   weight = weight * 0.91
